@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b575ae61-a515-43c9-b645-40d93903daf7" name="변경" comment="feat(baseball): create skeleton code">
+    <list default="true" id="b575ae61-a515-43c9-b645-40d93903daf7" name="변경" comment="feat(baseball): 서로 다른 임의의 수 3개를 생성하는 기능 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/baseball/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseball/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseball/domain/NumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseball/domain/NumberGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseball/domain/Judgment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseball/domain/Judgment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,7 @@
       <workItem from="1664777601523" duration="4273000" />
       <workItem from="1664792099412" duration="1901000" />
       <workItem from="1664794022491" duration="2524000" />
-      <workItem from="1664851449137" duration="1345000" />
+      <workItem from="1664851449137" duration="2038000" />
     </task>
     <task id="LOCAL-00001" summary="baseball-precourse-1">
       <created>1664794340238</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664800638881</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(baseball): 서로 다른 임의의 수 3개를 생성하는 기능 구현">
+      <created>1664852858571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664852858571</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +149,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="baseball-precourse-1" />
     <MESSAGE value="feat(baseball): create skeleton code" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(baseball): create skeleton code" />
+    <MESSAGE value="feat(baseball): 서로 다른 임의의 수 3개를 생성하는 기능 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(baseball): 서로 다른 임의의 수 3개를 생성하는 기능 구현" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
