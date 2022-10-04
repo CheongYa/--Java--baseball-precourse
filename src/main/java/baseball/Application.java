@@ -2,6 +2,7 @@ package baseball;
 
 import baseball.domain.Judgment;
 import baseball.domain.NumberGenerator;
+import baseball.domain.Referee;
 
 import java.util.Arrays;
 import java.util.List;
@@ -14,15 +15,8 @@ import java.util.List;
  */
 public class Application {
     public static void main(String[] args) {
-//        NumberGenerator generator = new NumberGenerator();
-//        List<Integer> numbers = generator.createRandomNumbers();
-//        System.out.println(numbers);
-
-        Judgment judgment = new Judgment();
-//        int count = judgment.correctCount(Arrays.asList(7, 8, 9), Arrays.asList(1, 2, 3));
-//        System.out.println(count);
-
-        boolean place = judgment.hasPlace(Arrays.asList(7, 8, 9), 1, 8);    //index n번 자리가 m인지 확인
-        System.out.println(place);
+        Referee referee = new Referee();
+        String result = referee.compare(Arrays.asList(3, 1, 2), Arrays.asList(1, 2, 3));
+        System.out.println(result);
     }
 }
