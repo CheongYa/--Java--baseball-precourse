@@ -19,7 +19,10 @@ public class Application {
 //        System.out.println(numbers);
 
         Judgment judgment = new Judgment();
-        int count = judgment.correctCount(Arrays.asList(7, 8, 9), Arrays.asList(1, 2, 3));
-        System.out.println(count);
+//        int count = judgment.correctCount(Arrays.asList(7, 8, 9), Arrays.asList(1, 2, 3));
+//        System.out.println(count);
+
+        boolean place = judgment.hasPlace(Arrays.asList(7, 8, 9), 1, 8);    //index n번 자리가 m인지 확인
+        System.out.println(place);
     }
 }
